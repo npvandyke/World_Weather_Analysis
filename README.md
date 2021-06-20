@@ -29,6 +29,12 @@ Latitude versus humidity
 Latitude versus cloudiness
 Latitude versus wind speed
 
+|                          |                           |
+:-------------------------:|:-------------------------:
+![Lat_vs_Max_Temp](weather_data/Fig1.png) | ![Lat vs Humidity](weather_data/Fig2.png)
+![Lat vs Cloudiness](weather_data/Fig3.png) | ![Lat vs Wind Speed](weather_data/Fig4.png)
+
+
 - Determine the correlations for the following weather data:
 Latitude and temperature
 Latitude and humidity
