@@ -1,13 +1,23 @@
 # World Weather Analysis
-Analyzing the relationship between latitude and a variety of weather parameters for over 500 cities around the world. 
+Analyze & visualize current weather data for over 500 cities across the world. Generate destinations and travel maps using Google Maps Platform APIs. 
 
 ## Purpose: 
-PlanMyTrip will use the data to recommend ideal hotels based on clients' weather preferences.
+A use-case for this project includes user-interface enhancement for travel apps through the provision of filterable hotel destinations based on user-selected weather preferences. 
+
+Other use-cases could be educational in nature, with interactive heat maps displaying a variety of weather parameters, and scatter plots and linear regression analyses showing the relationship between weather parameters and latitude. 
+
+## Tools: 
+- Software: 
+  - Python, Anaconda Navigator, Conda, Jupyter Notebook 
+- Dependencies: 
+  - pandas, numpy, matplotlib, citipy, requests, datetime, gmaps 
+- API Data Sources: 
+  -    [OpenWeatherMap](https://openweathermap.org/current) 
+  -    [Google Maps and Places](https://developers.google.com/maps/documentation/places/web-service/search) 
+  -    [Google Maps Directions](https://developers.google.com/maps/documentation/directions/overview)
+
 ## Method: 
 Create a Pandas DataFrame with 500 or more of the world's unique cities and their weather data in real time. 
-## Tools: 
-
-## Collect the Data
 
 - Use the NumPy module to generate more than 1,500 random latitudes and longitudes.
 - Use the citipy module to list the nearest city to the latitudes and longitudes.
@@ -28,10 +38,6 @@ Wind speed
 ## Exploratory Analysis with Visualization
 
 - Create scatter plots of the weather data for the following comparisons:
-Latitude versus temperature
-Latitude versus humidity
-Latitude versus cloudiness
-Latitude versus wind speed
 
 |                          |                           |
 :-------------------------:|:-------------------------:
@@ -46,14 +52,9 @@ Latitude and temperature
 :-------------------------:|:-------------------------:
 ![Lat_vs_Max_Temp](weather_data/temp_northern.png) | ![Lat vs Humidity](weather_data/temp_southern.png)
 
-Latitude and humidity
-Latitude and cloudiness
-Latitude and wind speed
+
 - Create a series of heatmaps using the Google Maps and Places API that showcases the following:
-Latitude and temperature
-Latitude and humidity
-Latitude and cloudiness
-Latitude and wind speed
+
 Visualize Travel Data
 
 ## Create a heatmap with pop-up markers that can display information on specific cities based on a customer's travel preferences. 
