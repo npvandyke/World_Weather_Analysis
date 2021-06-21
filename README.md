@@ -21,6 +21,10 @@ Humidity
 Cloudiness
 Wind speed
 
+| City Data DataFrame | Hotel Data DataFrame |
+:-------------------------:|:-------------------------:
+![city_data_df](weather_data/city_data_df.png) | ![hotels_df](weather_data/hotels_df.png)
+
 ## Exploratory Analysis with Visualization
 
 - Create scatter plots of the weather data for the following comparisons:
@@ -37,6 +41,11 @@ Latitude versus wind speed
 
 - Determine the correlations for the following weather data:
 Latitude and temperature
+
+|  Northen Hemisphere | Southern Hemisphere |
+:-------------------------:|:-------------------------:
+![Lat_vs_Max_Temp](weather_data/temp_northern.png) | ![Lat vs Humidity](weather_data/temp_southern.png)
+
 Latitude and humidity
 Latitude and cloudiness
 Latitude and wind speed
