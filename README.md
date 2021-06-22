@@ -28,6 +28,7 @@ Other use-cases could be educational in nature, with interactive heat maps displ
 :-------------------------:|
 ![city_data_df](weather_data/city_data_df.png)  
 
+
 - Create a Pandas DataFrame with hotel names for each city that meets the user's inputted weather criteria. [Link to code.](https://github.com/npvandyke/World_Weather_Analysis/blob/main/VacationPy.ipynb)
   -   Write two input statements that prompt the user to enter their minimum and maximum temperature criteria for their vacation.
   -   Filter the city_data_df DataFrame for the collected temperature criteria and create a new Pandas DataFrame.
@@ -38,7 +39,8 @@ Other use-cases could be educational in nature, with interactive heat maps displ
 :-------------------------:
 ![hotels_df](weather_data/hotels_df.png)
 
-- Create a heatmap with pop-up markers that can display information on specific cities based on a customer's travel preferences.
+
+- Create a heatmap with pop-up markers that can display weather and hotel information for specific cities based on the user's travel preferences. [Link to code.](https://github.com/npvandyke/World_Weather_Analysis/blob/main/VacationPy.ipynb)
 
 ## Exploratory Analysis with Visualization
 
