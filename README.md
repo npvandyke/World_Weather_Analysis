@@ -1,3 +1,4 @@
+![](https://github.com/npvandyke/World_Weather_Analysis/blob/main/banner.png)
 # World Weather Analysis
 Analyze & visualize current weather data for over 500 cities across the world. Generate destinations and itineraries using Google Maps Platform APIs. 
 
