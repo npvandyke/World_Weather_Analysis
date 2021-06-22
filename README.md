@@ -43,9 +43,13 @@ Other use-cases could be educational in nature, with interactive heat maps displ
 
 - Create a heatmap with pop-up markers that can display weather and hotel information for specific cities based on the user's travel preferences. [Link to code.](https://github.com/npvandyke/World_Weather_Analysis/blob/main/VacationPy.ipynb)
 
+- Create a itinerary map with four hotels that fit the user's selected criteria and directions between each destination. [Link to code.](https://github.com/npvandyke/World_Weather_Analysis/blob/main/Vacation_Itinerary/Vacation_Itinerary.ipynb)
+
+![Vacation_Itinerary](Vacation_Itinerary/WeatherPy_travel_map_markers.png)
+
 ## Exploratory Analysis with Visualization
 
-- Create scatter plots of the weather data for the following comparisons:
+<b>Matplotlib-generated scatter plots comparing weather parameters at various latitudes:</b>
 
 |                          |                           |
 :-------------------------:|:-------------------------:
@@ -53,9 +57,12 @@ Other use-cases could be educational in nature, with interactive heat maps displ
 ![Lat vs Cloudiness](weather_data/Fig3.png) | ![Lat vs Wind Speed](weather_data/Fig4.png)
 
 
-- Determine the correlations for the following weather data:
-Latitude and temperature
+
+<b>Further exploration of the relationship between temperature and latitude using linear regression:
+
 
 |  Northen Hemisphere | Southern Hemisphere |
 :-------------------------:|:-------------------------:
 ![Lat_vs_Max_Temp](weather_data/temp_northern.png) | ![Lat vs Humidity](weather_data/temp_southern.png)
+
+Questions? Comments? [Let's Connect!](https://www.linkedin.com/in/natalie-vandyke-npv/) ![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)
