@@ -1,5 +1,5 @@
 # World Weather Analysis
-Analyze & visualize current weather data for over 500 cities across the world. Generate destinations and travel maps using Google Maps Platform APIs. 
+Analyze & visualize current weather data for over 500 cities across the world. Generate destinations and itineraries using Google Maps Platform APIs. 
 
 ## Purpose: 
 A use-case for this project includes user-interface enhancement for travel apps through the provision of filterable hotel destinations based on user-selected weather preferences. 
@@ -17,23 +17,22 @@ Other use-cases could be educational in nature, with interactive heat maps displ
   -    [Google Maps Directions](https://developers.google.com/maps/documentation/directions/overview)
 
 ## Method: 
-Create a Pandas DataFrame with 500 or more of the world's unique cities and their weather data in real time. 
 
-- Use the NumPy module to generate more than 1,500 random latitudes and longitudes.
-- Use the citipy module to list the nearest city to the latitudes and longitudes.
-- Use the OpenWeatherMap API to request the current weather data from each unique city in my list.
-- Parse the JSON data from the API request.
-- Collect the following data from the JSON file and add it to a DataFrame:
-City, country, and date
-Latitude and longitude
-Maximum temperature
-Humidity
-Cloudiness
-Wind speed
+- Create a Pandas DataFrame with 500 or more of the world's unique cities and their weather data in real time. [Link to code.](https://github.com/npvandyke/World_Weather_Analysis/blob/main/Weather_Database/Weather_Database.ipynb). 
+  - Use the NumPy module to generate more than 1,500 random latitudes and longitudes.
+  - Use the citipy module to list the nearest city to the latitudes and longitudes.
+  - Use the OpenWeatherMap API to request the current weather data from each unique city in the list.
+  - Parse the JSON data from the API request, collect relevant data and add it to a DataFrame.
+  - Collect the following data from the JSON file and add it to a DataFrame:
 
-| City Data DataFrame | Hotel Data DataFrame |
-:-------------------------:|:-------------------------:
-![city_data_df](weather_data/city_data_df.png) | ![hotels_df](weather_data/hotels_df.png)
+| City Data DataFrame | 
+:-------------------------:|
+![city_data_df](weather_data/city_data_df.png)  
+
+
+| Hotel Data DataFrame |
+:-------------------------:
+![hotels_df](weather_data/hotels_df.png)
 
 ## Exploratory Analysis with Visualization
 
