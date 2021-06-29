@@ -9,9 +9,9 @@ Other use-cases could be educational in nature, with interactive heat maps displ
 
 ## Tools: 
 - Software: 
-  - Python, Anaconda Navigator, Conda, Jupyter Notebook 
-- Dependencies: 
-  - pandas, numpy, matplotlib, citipy, requests, datetime, gmaps 
+  - Anaconda Navigator, Conda, Jupyter Notebook 
+- Languages/Dependencies: 
+  - Python, pandas, numpy, matplotlib, citipy, requests, datetime, gmaps 
 - API Data Sources: 
   -    [OpenWeatherMap](https://openweathermap.org/current) 
   -    [Google Maps and Places](https://developers.google.com/maps/documentation/places/web-service/search) 
